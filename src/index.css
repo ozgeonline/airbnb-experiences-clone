@@ -46,3 +46,61 @@ section{
   margin-top: 0;
   font-weight: 300;
 }
+/*Card container*/
+.card-container{
+  position: relative;
+  margin-top: 49px;
+  margin-left: 37px;
+  width: 176px;
+}
+.card-container .card-img{
+  width: 100%;
+  height: 235px;
+}
+.card-container button{
+  width: 61px;
+  height: 20px;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  border-radius: 2px;
+  border: none;
+}
+.container-exp .star-img{
+  width: 14px;
+  height: 14px;
+}
+.card-container .container-exp .point{
+  width: 2px;
+  height: 2px;
+  background-color: #918e9b;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-left: 2px;
+}
+.card-container .star-container{
+  display: flex;
+  align-items: center;
+}
+.card-container .container-exp .number,
+.card-container .container-exp .country,
+.card-container .container-exp .number2,
+.card-container .container-exp p{
+  font-size: 12px;
+  font-weight: 300;
+  padding-left: 2px;
+}
+.card-container .container-exp .country,
+.card-container .container-exp .number2{
+  color: #918e9b;
+}
+.card-container .container-exp p{
+  margin-top: 8px;
+  color: rgba(34, 34, 34, 1);
+}
+.card-container .container-exp p span{
+  font-weight: 600;
+}
