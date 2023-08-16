@@ -4,26 +4,31 @@
 body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #fefe;
 }
 .container{
   width: 550px;
+  margin-top: 10px;
 }
-.navbar-container{
+nav{
   height: 70px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, .1) ;
+  display: flex;
   border-radius: 3px 3px 0 0;
 }
+
 .logo{
   margin-top: 22px;
   margin-left: 30px;
   width: 82px;
+  height: 25px;
 }
-section{
+/*? *** Hero Section ***/
+.hero-section{
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -46,28 +51,40 @@ section{
   margin-top: 0;
   font-weight: 300;
 }
-/*Card container*/
+/*? *** Card container ***/
 .card-container{
   position: relative;
   margin-top: 49px;
-  margin-left: 37px;
+  margin-left: 17px;
   width: 176px;
+  background: #fff;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
+  overflow-x: auto;
+  background-color: #fff;
+  border-radius: 0 0 3px 3px;
 }
 .card-container .card-img{
-  width: 100%;
+  width: 146px;
   height: 235px;
+  border-radius: 9px;
 }
-.card-container button{
-  width: 61px;
-  height: 20px;
-  font-size: 9px;
-  text-transform: uppercase;
-  font-weight: 400;
+.card-container .card-badge{
   position: absolute;
   top: 6px;
   left: 6px;
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 2px;
-  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 61px;
+  height: 20px;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 2px;
 }
 .container-exp .star-img{
   width: 14px;
